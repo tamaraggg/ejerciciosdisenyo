@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: aqua;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 60%;
+    display: flex;/*trabajar elementos según maquetación flex*/
+    flex-direction: row; /*por defecto tiene el valor row, las principales son row y column*/
+    flex-wrap: wrap; /*por defecto tiene el valor wrap --> si los elementos no entran, que pasen para abajo*/
+
+
+
+
+}
+
+.container div {
+    background-color: red;
+    border: 1px solid black;
+    height: 50px;
+    width: 500px;
+}
