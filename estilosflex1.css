@@ -8,18 +8,24 @@
     margin: 20px auto;
     padding: 10px;
     width: 60%;
+
     display: flex;/*trabajar elementos según maquetación flex*/
     flex-direction: row; /*por defecto tiene el valor row, las principales son row y column*/
     flex-wrap: wrap; /*por defecto tiene el valor wrap --> si los elementos no entran, que pasen para abajo*/
-
-
-
-
+    /*con nowrap se quedan en la misma línea*/
+    justify-content: flex-start; /*por defecto tiene el valor start*/
+    align-items: center;
+    align-content: flex-start;
 }
 
 .container div {
     background-color: red;
     border: 1px solid black;
     height: 50px;
-    width: 500px;
+    width: 200px;
+
+    /*propiedades de los hijos de los elementos flex*/
+    /*align-self: auto; se usa si queremos que un elemento hijo tenga otro tipo de alineación diferente a la del elemento flex padre*/
+    /*flex-grow: ;*/
+
 }
