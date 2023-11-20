@@ -70,6 +70,14 @@ nav a{
     width: 65%;
 }
 
+.articulos article{
+    margin: 50px;    
+}
+
+.articulos article:nth-of-type(1){
+    border-bottom: 1px solid #3d3a38;
+}
+
 aside{
     background-color: orange;
     width: 30%;
@@ -77,9 +85,17 @@ aside{
 }
 
 aside div {
-    margin-top: 50px;
-    width: 50%;
+    margin: 25px auto;
+    width: 70%;
+    height: 200px;
     background-color: blue;
+    
+}
+
+ .divas img {
+    width: 60%;
+    margin-left: 80px;
+    margin-top: 5%;
 }
 
 .footer{
@@ -94,6 +110,7 @@ aside div {
 
 .footer a{
     color: white;
+    margin-left: 15px;
 }
 
 .footer img {
