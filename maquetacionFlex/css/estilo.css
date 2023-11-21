@@ -2,11 +2,6 @@
     box-sizing: border-box;
 
 }
-/*
-body {
-    width: 100%;
-    
-}*/
 
 .container{
     display: flex;
@@ -85,6 +80,7 @@ aside{
 }
 
 aside div {
+    display: flex;
     margin: 25px auto;
     width: 70%;
     height: 200px;
