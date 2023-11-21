@@ -24,6 +24,10 @@ header div, h3 {
     color: white;
 }
 
+h3 {
+    font-size: 1.5em;
+}
+
 .logo {
     display: flex;
     margin-left: 10px;
