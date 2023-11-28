@@ -84,20 +84,16 @@ aside {
     float: right;
     height: 600px;
     justify-content: center;
-}
+}/*
 aside div {
     background-color: blue;
+        
+}*/
+
+aside img {
     width: 80%;
     height: 200px;
     margin: 2.5em auto;
-    
-}
-
-aside img {
-    width: 150px;
-    margin-left: 100px;
-    margin-top: 25px;
-    border-radius: 1em;
 }
 
 .footer{
