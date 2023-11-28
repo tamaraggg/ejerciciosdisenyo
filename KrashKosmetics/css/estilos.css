@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Giaza';
+    src: url('Giaza.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;    
+}
+
+header{
+    width: 100%;
+    background-color: #F6BCD5;
+    color: whitesmoke;
+    font-family: Giaza;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h3 {
+    border-radius: 25px;
+    background-color: #311526;
+    font-size: 1.5em;
+    width: auto;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D4007F;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav a:hover{
+    background-color: #F6BCD5;
+    color: black;   
+}
+
+.cuerpoPrincipal {       
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 img {
+    width: 20px;
+}
+
+section{
+    width: 65%;
+}
+
+article {
+    border: 1px solid #D4007F;
+    margin: 10px;
+    padding: 10px;
+}
+
+article h4{
+    color: #D4007F;
+    font-size: 1.5em;
+}
+
+aside{
+    width: 30%;
+    background-color: #F6BCD5;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D4007F;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer a:hover{
+    background-color: #F6BCD5;
+    color: black; 
+}
