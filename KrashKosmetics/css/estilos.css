@@ -1,6 +1,5 @@
 *{
-    box-sizing: border-box;
-   
+    box-sizing: border-box;   
 }
 
 @font-face {
@@ -22,11 +21,7 @@ header{
     color: whitesmoke;
     font-family: Giaza;
     display: flex;
-    justify-content: space-around;
-    position: -webkit-sticky;
-    position: sticky;
-    top:0;
-    z-index: 100;   
+    justify-content: space-around;   
 }
 
 header h3 {
@@ -37,6 +32,18 @@ header h3 {
     padding: 10px;
 }
 
+header img {
+    width: 300px;
+}
+
+.stick {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
 nav {
     width: 100%;
     display: flex;
@@ -44,11 +51,7 @@ nav {
     background-color: #D4007F;
     justify-content: space-evenly;
     align-items: center;
-    height: 50px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index:99; 
+    height: 50px;    
 }
 
 nav a {
@@ -59,7 +62,8 @@ nav a {
 
 nav a:hover{
     background-color: #F6BCD5;
-    color: black;   
+    color: black;
+    border-radius: 25px;  
 }
 
 .cuerpoPrincipal {       
@@ -85,6 +89,13 @@ article {
     border-radius: 25px;
     margin: 10px;
     padding: 10px;
+    text-align: justify;
+}
+
+article:nth-of-type(3) img{
+    width: 400px;
+    border-radius: 25px;
+    margin-left: 30%;
 }
 
 article h4{
@@ -112,6 +123,7 @@ aside{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 aside img {
@@ -119,8 +131,15 @@ aside img {
     border-radius: 25px;
 }
 
-aside img:nth-of-type(2){
-    width: 500px;
+aside p {
+    color: white;
+    font-size: 3em;
+    margin: 150px;
+    font-family: Giaza;
+    background-color: #311526;
+    border-radius: 25px;
+    padding: 5px;
+    
 }
 
 footer{
@@ -141,5 +160,6 @@ footer a {
 
 footer a:hover{
     background-color: #F6BCD5;
-    color: black; 
+    color: black;
+    border-radius: 25px;
 }
