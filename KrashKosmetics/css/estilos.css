@@ -158,8 +158,35 @@ footer a {
     font-size: 1.5em;
 }
 
+footer div {
+    margin: 10px;
+}
+
 footer a:hover{
     background-color: #F6BCD5;
     color: black;
     border-radius: 25px;
+}
+
+footer img {
+    border-radius: 25px;
+}
+
+/*AQUÍ COMIENZA EL CSS QUE ES EXCLUSIVO DE LA PÁGINA CATALOGO.HTML*/
+
+h1 {
+    font-family: Giaza;
+    color: #311526;
+    font-size: 2.5em;
+    margin-left: 40%;
+}
+
+.productos {
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: repeat(100px 3);
+    grid-row-gap: 1em;
+    width: 90%;
+    margin: 5px auto;
+    align-items: center;
 }
