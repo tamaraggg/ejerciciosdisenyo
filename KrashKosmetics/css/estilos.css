@@ -143,8 +143,7 @@ aside p {
     font-family: Giaza;
     background-color: #311526;
     border-radius: 25px;
-    padding: 5px;
-    
+    padding: 5px;    
 }
 
 footer{
@@ -243,3 +242,13 @@ h1 {
 }
 
 /*AQUÍ COMIENZA EL CSS QUE ES EXCLUSIVO DE LA PÁGINA INICIATIVAS.HTML*/
+
+#mapa iframe{
+    width: 90%;
+}
+
+#navidad img{
+    border-radius: 25px;
+    width: auto;
+    margin-left: 30%;
+}
