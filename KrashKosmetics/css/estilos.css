@@ -1,3 +1,4 @@
+/*CSS COMÚN Y DE LA PÁGINA DE INICIO*/
 *{
     box-sizing: border-box;   
 }
@@ -7,6 +8,10 @@
     src: url('Giaza.otf') format('opentype'); 
     font-weight: normal;
     font-style: normal;
+  }
+
+  .cuerpoPrincipal strong {
+    color: #D4007F;
   }
 
 .container{
@@ -178,15 +183,63 @@ h1 {
     font-family: Giaza;
     color: #311526;
     font-size: 2.5em;
-    margin-left: 40%;
+    margin-left: 20%;
 }
 
 .productos {
     display: grid;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
     grid-template-columns: repeat(100px 3);
     grid-row-gap: 1em;
     width: 90%;
     margin: 5px auto;
     align-items: center;
+    font-family: Verdana, sans-serif;
 }
+
+.productos div {
+    width: 90%;
+    border: 0.5px solid #D4007F;
+    border-radius: 25px;
+    text-align: justify;
+    padding: 1em;
+    background-color: #ffeeff;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.productos div img {
+    width: auto;
+    margin: 10px auto;
+}
+
+.productos div h4 {
+    color: #D4007F;
+    text-align: center;
+}
+
+#toDieFor {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 25px;
+}
+
+#gloss {
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+
+#esponja {
+    grid-column: 3/4;
+    grid-row: 3/5; 
+}
+
+#claudia {
+    grid-column: 2/3;
+    grid-row: 5/7;
+    margin-bottom: 50px;
+}
+
+/*AQUÍ COMIENZA EL CSS QUE ES EXCLUSIVO DE LA PÁGINA INICIATIVAS.HTML*/
