@@ -124,26 +124,30 @@ span{
 
 aside{
     width: 30%;
-    background-color: #F6BCD5;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    background-color: #F6BCD5;    
 }
 
-aside img {
+aside div {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between;    
+}
+
+aside div img {    
     width: auto;
     border-radius: 25px;
 }
 
-aside p {
+aside div p {
     color: white;
     font-size: 3em;
-    margin: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-family: Giaza;
     background-color: #311526;
     border-radius: 25px;
-    padding: 5px;    
+    padding: 5px;
+    text-align: center;   
 }
 
 footer{
@@ -203,14 +207,13 @@ h1 {
     text-align: justify;
     padding: 1em;
     background-color: #ffeeff;
-    justify-items: center;
+    justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
+    flex-wrap: wrap;    
 }
 
 .productos div img {
-    width: auto;
+    width: 80%;
     margin: 10px auto;
 }
 
