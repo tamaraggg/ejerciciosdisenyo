@@ -42,8 +42,7 @@ header img {
 }
 
 .stick {
-    width: 100%;
-    position: -webkit-sticky;
+    width: 100%;    
     position: sticky;
     top:0;
     z-index: 100;
@@ -220,7 +219,7 @@ h1 {
 .productos {
     display: grid;
     grid-template-rows: 200px 200px 200px 200px 200px 200px;
-    grid-template-columns: repeat(100px 3);
+    grid-template-columns: 100px 100px 100px;
     grid-row-gap: 1em;
     width: 90%;
     margin: 5px auto;
