@@ -219,7 +219,7 @@ h1 {
 .productos {
     display: grid;
     grid-template-rows: 200px 200px 200px 200px 200px 200px;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 500px 500px 500px;
     grid-row-gap: 1em;
     width: 90%;
     margin: 5px auto;
