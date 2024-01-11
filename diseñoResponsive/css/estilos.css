@@ -85,7 +85,7 @@ section.images img {
     display: flex;
   }
 
-  .novedades > * {
+  .novedades > * {/* todos los hijos directos de novedades */
     width: 25%;
   }
 
