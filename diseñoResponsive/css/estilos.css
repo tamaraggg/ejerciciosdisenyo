@@ -106,7 +106,7 @@ section.images img {
   }
 
   section.images {
-    order: 1;
+    order: 1; /*queremos que las imágenes se muestren antes que el textos*/
   }
 
   section.main_text {
