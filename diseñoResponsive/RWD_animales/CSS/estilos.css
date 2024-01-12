@@ -34,6 +34,10 @@ h1, h3, h4{
     justify-content: center;
 }
 
+.cabeceraArt h3 {
+    width: 60%;
+}
+
 article p {
     text-align: justify;
     width: 80%;
@@ -53,7 +57,7 @@ article.oso {
 
 /*DISPOSITIVOS MÓVILES*/
 
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) and (max-width: 992px){
 
     article.oso {
         display: block;
@@ -101,10 +105,14 @@ article.oso {
         width: 90%;
     }
 
-    .divOso {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    .oso p {
+        width: 80%;
+        order: 1;
+    }
+
+    .oso img {
+        width: 65%;
+        order: 2;
     }
     
 }
@@ -113,7 +121,36 @@ article.oso {
 /*DISPOSITIVOS GRANDES*/
 
 @media screen and (min-width: 992px){
-    .container {        
-        background-color: #2A9923;              
+   
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #2A9923; 
+        justify-content: center;
+        width: 90%;
+        margin: 0.25em auto;        
+    }
+
+    article {
+        width: 30%;
+        border: 1px solid black;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+
+    article p {
+        text-align: justify;
+        width: 80%;
+        margin: 10px auto;
+        color: black;
+        font-style: bolder;
+    }
+
+    h1 {
+        width: 70%;
+    }
+    h1, h3, h4{
+        color: black;
+        text-align: center;
     }
 }
