@@ -49,6 +49,17 @@ article p {
     color: #3393FF;
     font-style: bolder;    
 }
+
+.pieArt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article iframe {/*lo coge para todas las resoluciones*/
+    width: 80%;
+    margin: 5% auto;
+}
 /*
 article.oso {
     display: none;
