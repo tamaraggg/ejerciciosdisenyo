@@ -20,7 +20,7 @@ body {
 article {    
     width: 80%;
     border: 1px solid #3393FF;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 h1, h3, h4{
@@ -54,6 +54,7 @@ article p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 article iframe {/*lo coge para todas las resoluciones*/
@@ -168,6 +169,17 @@ article.oso {
         margin: 10px auto;
         color: black;
         font-style: bolder;
+    }
+
+    .gallo p {
+        text-align: center;
+    }
+
+    .pieArt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
 
     h1 {
