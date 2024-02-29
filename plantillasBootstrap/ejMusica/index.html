@@ -15,7 +15,7 @@
 
     <div class="container mt-3">
         <!--Encabezado resaltado-->       
-
+   
             <div class="row rounded text-center pt-4 pb-2" style="background-color: #f0f0f0;" >
                 
                     <h4 style="color:dimgray;">Lorem ipsum dolor sit amet</h4>
@@ -25,11 +25,13 @@
                     <p class="lead d-none d-md-block">Vivamus ultricies sollicitudin</p>               
 
             </div>
+            
 
+
+          
             <!-- carousel-->
-
             <div class="row mt-3"> <!--El mt-3 a las filas se pone así-->  
-                <div class="col 3">
+                <div class="col">
                     <div id="carouselExampleCaptions" class="carousel slide">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -69,13 +71,89 @@
                         </button>
                       </div>
                 </div>
+<!--
+                <div class="col-4">
+                     columna vacía de ejemplo
+                </div>-->
 
-                <div class="col 3">
+            </div>
+
+            <!-- Títulos -->
+            <h5 class="my-3">Lorem Impsun</h5>      
+            <p class="lead">Lorem Impsun  dolor sit amet, jeje</p> 
+
+            <hr style="border-top: 2px solid #ccc"><!-- Línea -->
+
+
+            <!-- cards -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/chicago.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Chicago</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-center flex-column flex-sm-row">
+                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal-ch">Open modal</button>
+                      </div>
+                      </div>
 
                 </div>
 
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/la.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Los Ángeles</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-center flex-column flex-sm-row">
+                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal-la">Open modal</button>
+                          </div>
+                      </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/ny.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">New York</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          
+                        </div>
+                        <div class="card-footer d-flex justify-content-center flex-column flex-sm-row mt-3">
+                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal-ny">Open modal</button>
+                         </div>
+                      </div>
+
+                </div>
+                
             </div>
-        
+
+
+            <!-- footer -->
+            <footer>
+                <div class="row rounded text-center pt-4 pb-2" style="background-color: #f0f0f0;">
+                    <div class="col-6">
+                        <h5 style="color:dimgray;" class="d-flex justify-content-center justify-content-md-start">Lorem Impsun</h5>
+                    </div>
+
+                    <div class="col-6">
+                        <ul class="list-inline d-flex justify-content-center justify-content-md-end">
+                            <li class="list-inline-item"><a href="#">Los Ángeles</a></li>
+                            <li class="list-inline-item"><a href="#">Chicago</a></li>
+                            <li class="list-inline-item"><a href="#">Nueva York</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </footer>
             
 
     </div>
