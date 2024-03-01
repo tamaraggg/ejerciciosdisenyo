@@ -88,7 +88,7 @@
             <!-- cards -->
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card" style="width: 20rem;">
+                    <div class="card"> <!-- le quitamos el width es responsive -->
                         <img src="imagenes/chicago.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Chicago</h5>
@@ -97,14 +97,14 @@
                         </div>
 
                         <div class="card-footer d-flex justify-content-center flex-column flex-sm-row">
-                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal-ch">Open modal</button>
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal-ch">Open modal</button>
                       </div>
                       </div>
 
                 </div>
 
                 <div class="col-md-4">
-                    <div class="card" style="width: 20rem;">
+                    <div class="card">
                         <img src="imagenes/la.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Los Ángeles</h5>
@@ -120,15 +120,15 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="card" style="width: 20rem;">
+                    <div class="card">
                         <img src="imagenes/ny.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">New York</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           
                         </div>
-                        <div class="card-footer d-flex justify-content-center flex-column flex-sm-row mt-3">
-                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal-ny">Open modal</button>
+                        <div class="card-footer d-flex justify-content-center flex-column flex-sm-row">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal-ny">Open modal</button>
                          </div>
                       </div>
 
@@ -136,15 +136,67 @@
                 
             </div>
 
+            <div class="modal" tabindex="-1" id="exampleModal-ch">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Chicago</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" tabindex="-1" id="exampleModal-la">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">LA</h5>
+                    <button type="button" class="btn" data-dismiss="modal" aria-label="Close">X</button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" tabindex="-1" id="exampleModal-ny">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">NY</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
 
             <!-- footer -->
             <footer>
-                <div class="row rounded text-center pt-4 pb-2" style="background-color: #f0f0f0;">
-                    <div class="col-6">
-                        <h5 style="color:dimgray;" class="d-flex justify-content-center justify-content-md-start">Lorem Impsun</h5>
+                <div class="row rounded text-center mt-3 pt-4 pb-2" style="background-color: #f0f0f0;">
+                    <div class="col-md-6">
+                        <h5 style="color:dimgray;" class="d-flex justify-content-center justify-content-md-start">Lorem Impsun</h5><!-- d-flex es para hacer que un objeto menor funcione como un flex, nos centra el componente -->
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <ul class="list-inline d-flex justify-content-center justify-content-md-end">
                             <li class="list-inline-item"><a href="#">Los Ángeles</a></li>
                             <li class="list-inline-item"><a href="#">Chicago</a></li>
@@ -169,6 +221,13 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"
     ></script>
+
+    
+ <!-- Bootstrap JavaScript Libraries estas no las pone el visual studio code y se necesitan para el Modal -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
